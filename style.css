@@ -1,0 +1,56 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    /* background-color:; */
+}
+.leftside{
+    background-color: #333;
+}
+.profilepic{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.3rem;
+    border: 1rem solid yellow;
+}
+.name{
+    font-size: 2rem;
+    margin-left: 1rem;
+    font-family: 'Carter One', cursive;
+    color: white;
+}
+.caption{
+    font-size: 1rem;
+    margin-left: 3.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.sections{
+    margin-left: 100px;
+}
+.aa{
+margin: 20px;
+}
+.rightside{
+    background-color: black;
+    color: white;
+}
+.heythere{
+    font-size: 50px;
+    color: white;
+}
+.iam{
+    font-size: 70px;
+}
+.naam{
+    font-size: 75px;
+    color: yellow;
+}
+.tagline{
+    color: white;
+}
