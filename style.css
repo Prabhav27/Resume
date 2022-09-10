@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 0, 48);
+    border-radius: 0;
+  }
+body{
+    background-color: black;
+}
+.navbar{
+    height: 6vh;
+    background-color: black;
+    
+    display: flex; 
+    align-items: center;
+    overflow: auto;
+    justify-content: space-between;
+    margin-right: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0%; 
+    z-index: 0;
+}
+/* .navscroll{ */
+   
+.PB{
+  
+    font-size: 2.2em;
+    color: rgb(255, 0, 48);
+    font-family: 'Ubuntu', sans-serif;
+    /* display: inline-block; */
+    margin-right: 0.15vw;
+}
+
+.meranaam{
+  
+    /* display: inline-block; */
+    margin-left: -0.4vw;
+    margin-right: 0.2em;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2em;
+}
+.rightnav{
+    display: flex;
+    justify-content: right;
+  /* background-color: aqua; */
+    /* position: fixed; */
+   
+}
+.rightnav a{
+    /* display: flex; */
+    /* justify-content: right; */
+    /* display: inline-block; */
+    color: rgb(255, 0, 48);
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    /* position: ; */
+
+}
+.frontpage{
+height: 94vh;
+display: flex;
+
+}
+.leftintro{
+    height: 94vh;
+    width: 30vw;
+    background: rgb(35, 33, 33);
+}
+.leftintro img{
+    /* z-index: 5; */
+    margin-top: 8em;
+    margin-left: 3vw;
+    margin-bottom: 3em;
+    /* margin: auto; */
+    /* align-self: center; */
+    /* margin-top: 15vh; */
+    /* margin-left: auto; */
+    /* margin-right: auto/; */
+    /* margin-left: ; */
+    height: 40vh;
+    border: 2vh solid rgb(255, 0, 48);
+    border-radius: 40vh;   
+    box-shadow: rgb(255, 0, 48,0.4) -5px 5px, rgba(255, 39, 79, 0.3) -10px 10px, rgba(255, 89, 119, 0.2) -15px 15px,rgba(255, 148, 167, 0.1) -20px 20px, rgba(255, 213, 221, 0) -25px 25px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+.leftintro img:hover{
+    transform:scale(1.5)
+}
+.caption{
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(255, 0, 48);
+    background: linear-gradient(to right,  rgb(255, 0, 48), rgb(0, 55, 255)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2.5rem;
+    margin-left: 1em;
+    /* margin-left: 2.5vw; */
+}
+.tagline{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    margin-left: 4.5em;
+    color: aliceblue;
+    font-style: italic;
+}
+.rightintro{
+    width: 70vw;
+    height: 94vh;
+    background-color: black;
+}
+.merapuranaam{
+    margin: 8rem 0 0 20rem;
+}
+.heythere{
+    margin-left: 10rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+}
+.iam{
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+.naam{
+    /* color: white; */
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    background: linear-gradient(to right,  rgb(255, 0, 48), rgb(0, 55, 255)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.tagline2{
+    margin: 2rem 0;
+    color: rgb(255, 0, 48);
+    font-style: italic;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+.heading{
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(255, 0, 48);
+    font-size: 10vh;
+    text-align: center;
+    background-color: black;
+    z-index: 100;
+    /* background: linear-gradient(to right,  rgb(255, 0, 48), rgb(0, 55, 255)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+
+}
+.heading1{
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(255, 0, 48);
+    font-size: 7vh;
+    text-align: center;
+    background-color: black;
+
+}
+.edu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.manit{
+   
+    box-shadow: rgb(255, 0, 48,0.4) -5px 5px, rgba(255, 39, 79, 0.3) -10px 10px, rgba(255, 89, 119, 0.2) -15px 15px,rgba(255, 148, 167, 0.1) -20px 20px, rgba(255, 213, 221, 0) -25px 25px;
+    transition: box-shadow 0.5s ease-in-out;
+    /* background-color: #E1E8EB; */
+    padding: 1.3rem;
+    margin-top: 2em;
+    border-radius: 30px;
+    /* border: 2px solid transparent; */
+    /* box-shadow: 5em; */
+    background-color: rgb(35, 33, 33);
+    width: 30vw;
+    height: 80vh;
+    /* box-shadow: 10px 10px 5px #aaaaaa; */
+    /* display: flex; */
+    
+}
+.campion:hover, .manit:hover{
+ 
+    box-shadow: 1rem 0.8rem 0.7rem rgba(0,0,0,0.3);
+}
+.campion{
+    box-shadow: rgb(255, 0, 48,0.4) 5px 5px, rgba(255, 39, 79, 0.3) 10px 10px, rgba(255, 89, 119, 0.2) 15px 15px,rgba(255, 148, 167, 0.1) 20px 20px, rgba(255, 213, 221, 0) 25px 25px;
+    transition: box-shadow 0.5s ease-in-out;
+    /* background-color: #E1E8EB; */
+    padding: 1.3rem;
+    margin-top: 2em;
+    border-radius: 30px;
+    /* border: 2px solid transparent; */
+    /* box-shadow: 5em; */
+    background-color: rgb(35, 33, 33);
+    width: 30vw;
+    height: 80vh;
+    
+}
+.manit img{
+    /* align-items: center; */
+    /* align-self: center; */
+    margin-top: 5em;
+    height: 40vh;
+    margin-left: 5.5em;    
+}
+.campion img{
+    margin-top: 5em;
+    /* margin:4em 5vw 0 0; */
+    height: 40vh;    
+margin-left: 4em;
+}
+
+.clgname{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.year{
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 2em;
+    color: white;
+}
+.clglist{
+    /* margin-top: 2em; */
+    font-family: 'Bebas Neue', cursive; 
+    text-align: center;
+    font-size: 1.4em; 
+    color: white; 
+}
+.clgname2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: white;
+}
+.skill{
+    background: black;
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2em;
+/* background-color: red; */
+}
+.skillsheading{
+    text-align: center;
+    /* margin */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 0.6em;
+}
+.coding{
+    box-shadow: rgb(255, 0, 48,0.4) -5px 5px, rgba(255, 39, 79, 0.3) -10px 10px, rgba(255, 89, 119, 0.2) -15px 15px,rgba(255, 148, 167, 0.1) -20px 20px, rgba(255, 213, 221, 0) -25px 25px;
+    transition: box-shadow 0.5s ease-in-out;
+    /* background-color: #E1E8EB; */
+    padding: 1.3rem;
+    margin-top: 2em;
+    border-radius: 30px;
+    /* border: 2px solid transparent; */
+    /* box-shadow: 5em; */
+    background-color: rgb(35, 33, 33);
+    /* width: 20vw; */
+    height: 40vh;
+    /* text-align: center; */
+    margin-top: 2em;
+width: 30vw;
+font-family: 'Bebas Neue', cursive; 
+    text-align: center;
+    font-size: 1.4em; 
+    color:rgb(255, 0, 48);
+    /* margin-bottom: 5em;  */
+
+}
+.coding2{
+    box-shadow: rgb(255, 0, 48,0.4) 5px 5px, rgba(255, 39, 79, 0.3) 10px 10px, rgba(255, 89, 119, 0.2) 15px 15px,rgba(255, 148, 167, 0.1) 20px 20px, rgba(255, 213, 221, 0) 25px 25px;
+    transition: box-shadow 0.5s ease-in-out;
+    /* background-color: #E1E8EB; */
+    padding: 1.3rem;
+    margin-top: 2em;
+    border-radius: 30px;
+    /* border: 2px solid transparent; */
+    /* box-shadow: 5em; */
+    background-color: rgb(35, 33, 33);
+    /* width: 20vw; */
+    height: 40vh;
+    /* text-align: center; */
+    margin-top: 2em;
+width: 30vw;
+font-family: 'Bebas Neue', cursive; 
+    text-align: center;
+    font-size: 1.4em; 
+    color:rgb(255, 0, 48);
+    /* margin-bottom: 5em;  */
+
+}
+.coding:hover, .coding2:hover{
+ 
+    box-shadow: 1rem 0.8rem 0.7rem rgba(0,0,0,0.3);
+}
+.cp{
+    display: flex;
+    /* align-items: ; */
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 5em;
+}
+.cp a img{
+    box-shadow: rgb(255, 0, 48) 20px 20px 20px -10px;
+    /* border-radius: ; */
+    transition: box-shadow 0.5s ease-in-out;
+    margin-top: 1em;
+    /* margin: 1em 1em 0 1em; */
+    /* justify-content: space-around; */
+height: 8vh;
+/* margin-bottom: 2em; */
+
+}
+.cp4 a img{
+    box-shadow: rgb(255, 0, 48) 20px 20px 20px -10px;
+    /* border-radius: ; */
+    margin-top: 1em;
+    border: 1px solid black;
+    transition: box-shadow 0.5s ease-in-out;
+    border-radius: 6em;
+    background-color: white;
+    /* margin: 1em 1em 0 1em; */
+    /* justify-content: space-around; */
+height: 8vh;
+/* margin-bottom: 2em; */
+
+}
+.cp a img:hover, .cp4 a img:hover{
+ 
+    box-shadow: 1rem 0.8rem 0.7rem rgba(0,0,0,0.3);
+}
+.cp1{
+    display: flex;
+    /* align-items: ; */
+    justify-content: space-around;
+    align-items: baseline;
+}
+.cp1 img{
+    margin-top: 1em;
+    /* margin: 1em 1em 0 1em; */
+    /* justify-content: space-around; */
+height: 13vh;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-content: center;
+    height: 8rem;
+    padding: 2rem;
+    background:rgb(35, 33, 33);
+}
+footer p{
+text-align: center;
+}
+/* footer{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-content: center;
+    height: 5rem;
+    padding: 2rem;
+    background-color: #E1E8EB;
+} */
+
+/* .cp a img{
+     font-size: 2rem;
+     padding: 1rem;
+     padding-bottom: 0;
+     padding-top: 1rem;
+} */
+footer p{
+    font-size: 2rem;
+    color: aliceblue;
+    font-family: 'Luckiest Guy', cursive;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.cp2{
+    display: flex;
+    justify-content: space-around;
+}
+.cp2 a img{
+    /* margin-top: 1em; */
+    /* margin: 1em 1em 0 1em; */
+    /* justify-content: space-around; */
+height: 6vh;
+/* box-shadow: rgb(255, 0, 48) 20px 20px 20px -10px; */
+/* margin-bottom: 2em; */
+
+}
+.cp2 a img:hover, .cp a img:hover{
+    transform:scale(1.5)
+}
+.git{
+    /* box-shadow: rgb(255, 0, 48) 20px 20px 20px -10px; */
+    /* border-radius: ; */
+    /* margin-top: 1em; */
+    border: 1px solid black;
+    border-radius: 6em;
+    background-color: white;
+    /* margin: 1em 1em 0 1em; */
+    /* justify-content: space-around; */
+height: 6vh;
+}
+.copy{
+    margin-top: 1.2em;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+    font-weight: 400;
+}
